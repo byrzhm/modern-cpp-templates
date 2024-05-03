@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "clang++ -g -O0 -fsanitize=address -fno-omit-frame-pointer $dir$fileName -o out/$fileNameWithoutExt && out/$fileNameWithoutExt",
+    }
+}
